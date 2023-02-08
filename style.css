@@ -1,0 +1,67 @@
+.news-container .card-title {
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.progress {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: #fff;
+  z-index: 1;
+}
+
+.news-container .grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-flow: dense;
+}
+
+nav .nav-wrapper {
+  background-color: black;
+}
+
+.dropdown-content li span {
+  color: black !important;
+}
+
+.selected span {}
+
+.select-wrapper input.select-dropdown:focus {
+  border-bottom: 1px solid black;
+}
+
+.select-wrapper input.select-dropdown {
+  border-bottom: 1px solid black;
+}
+
+.card-action .btn {
+  background-color: black;
+}
+
+.card-action a {
+  margin: 0 auto !important;
+  color: black !important;
+}
+
+.card .card-action a {
+  color: black !important;
+}
+
+a {
+  color: black !important;
+
+  margin-left: 20px;
+  margin-bottom: 10px !important;
+
+}
+
+.brand-logo {
+  color: white !important;
+}
+
+@media (max-width: 739px) {
+  .news-container .grid-container {
+    grid-template-columns: 1fr;
+  }
+}
